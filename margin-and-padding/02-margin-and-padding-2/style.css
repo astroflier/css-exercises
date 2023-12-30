@@ -36,4 +36,19 @@ button {
   padding: 8px 24px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  color: rgb(28, 69, 255);
+  border: 2px solid rgb(37, 51, 255);
+  transition: all 0.6s ease;
+}
+.button:hover {
+  box-shadow: rgba(19, 82, 255, 0.4) 0px 5px, rgba(19, 82, 255, 0.4) 0px 10px,
+    rgba(13, 78, 255, 0.418) 0px 15px, rgba(19, 82, 255, 0.4) 0px 20px,
+    rgba(19, 82, 255, 0.4) 0px 25px;
+}
+.button:active {
+  box-shadow: none;
 }
